@@ -1,0 +1,21 @@
+{
+  "name": "apex-class-cleanup",
+  "version": "0.0.1",
+  "description": "Remove extra apex classes from a salesforce org",
+  "main": "lib/apex-class-cleanup.js",
+  "author": {
+    "name": "Bruce Lindsay",
+    "email": "skynet1024@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs.promised": "^3.0.0",
+    "jsforce": "^1.8.0",
+    "handlebars": "^4.0.10",
+    "promptly": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bruce-lindsay/apex-class-cleanup"
+  }
+}
