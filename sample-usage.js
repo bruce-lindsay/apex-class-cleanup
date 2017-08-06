@@ -10,6 +10,9 @@ const options = {
     noPrompt: false, // set to true to bypass the safety prompt and automatically delete classes
     // logLevel: 'DEBUG', // optional logging level passed to jsforce connection
     // version: '38.0' // optional salesforce api version
+    // if you have already cached a connection to SF, bypass calling "login" again by passing your credentials below
+    accessToken: null,
+    instanceUrl: null
 };
 
 // delete apex classes not found in classes folder
