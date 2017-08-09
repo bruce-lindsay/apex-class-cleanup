@@ -1,6 +1,6 @@
 {
   "name": "apex-class-cleanup",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Remove extra apex classes from a salesforce org",
   "main": "lib/apex-class-cleanup.js",
   "author": {
