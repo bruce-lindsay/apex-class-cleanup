@@ -12,7 +12,8 @@ const options = {
     // version: '38.0' // optional salesforce api version
     // if you have already cached a connection to SF, bypass calling "login" again by passing your credentials below
     accessToken: null,
-    instanceUrl: null
+    instanceUrl: null,
+    pollTimeout: null
 };
 
 // delete apex classes not found in classes folder
